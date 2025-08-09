@@ -109,7 +109,7 @@ def schedule_roster(
           "runtime_sec": float
         }
       }
-    """
+    """```
 
 
 ### Minimal data schemas (examples)
