@@ -115,35 +115,26 @@ def schedule_roster(
 ### Minimal data schemas (examples)
 
 doctors.csv
-```
-DoctorId,DisplayName,Unit,Category,Active,LastStandby,Workload_weekday,Workload_weekend,Workload_ED
+```DoctorId,DisplayName,Unit,Category,Active,LastStandby,Workload_weekday,Workload_weekend,Workload_ED
 U1_D1,Dr A,Unit1,junior,1,2025-05-01,12,6,10
-U1_D2,Dr B,Unit1,registrar,1,,8,4,5
-```
+U1_D2,Dr B,Unit1,registrar,1,,8,4,5```
 
 clinic_days.json
-```
-{ "Unit1": [0,4], "Unit2": [0,2], "Unit3": [3] }
-```
+```{ "Unit1": [0,4], "Unit2": [0,2], "Unit3": [3] }```
 
 posts_config.json
-```
-{
+```{
   "posts_weekday": ["ED1","ED2","ED3","Ward3","Ward4","ED Cover A1","ED Cover A2"],
   "posts_weekend": ["ED1","ED2","ED3","Ward4","Ward5","Ward6","Ward7","Ward9","Ward10","Standby Oncall"]
-}
-```
+}```
 
 availability.csv
-```
-DoctorId,Date,Post,Available
+```DoctorId,Date,Post,Available
 U1_D1,2025-08-04,ED1,1
-U1_D1,2025-08-04,Ward3,0
-```
+U1_D1,2025-08-04,Ward3,0```
 
 config.json
-```
-{
+```{
   "lambda_rest": 3,
   "lambda_gap": 1,
   "lambda_ed": 5,
@@ -155,8 +146,7 @@ config.json
   "clinic_penalties": { "before": 10, "same": 50, "after": 5 },
   "big_m": 10000,
   "solver": { "name": "CBC", "maximumSeconds": 600 }
-}
-```
+}```
 
 
 ### Likely workflow for admins:
