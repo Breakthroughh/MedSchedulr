@@ -83,8 +83,7 @@ Replace all random test data with real data from your webapp.
 
 ## Suggested API (so the webapp can call the solver)
 
-```python
-def schedule_roster(
+```def schedule_roster(
     roster_start: date,
     roster_end: date,
     units: list[str],
@@ -112,7 +111,7 @@ def schedule_roster(
     """```
 
 
-### Minimal data schemas (examples)
+## Minimal data schemas (examples)
 
 doctors.csv
 ```DoctorId,DisplayName,Unit,Category,Active,LastStandby,Workload_weekday,Workload_weekend,Workload_ED
