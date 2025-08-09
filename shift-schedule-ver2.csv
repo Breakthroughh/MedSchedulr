@@ -1,0 +1,7 @@
+Shift,Day 1 - 8am-4pm,Day 1 - 8am-4pm,Day 1 - 4pm-8am,Day 1 - 4pm-8am,Day 2 - 8am-4pm,Day 2 - 8am-4pm,Day 2 - 4pm-8am,Day 2 - 4pm-8am,Day 3 - 8am-4pm,Day 3 - 8am-4pm,Day 3 - 4pm-8am,Day 3 - 4pm-8am,Day 4 - 8am-4pm,Day 4 - 8am-4pm,Day 4 - 4pm-8am,Day 4 - 4pm-8am,Day 5 - 8am-4pm,Day 5 - 8am-4pm,Day 5 - 4pm-8am,Day 5 - 4pm-8am,Day 6 - 8am-4pm,Day 6 - 8am-4pm,Day 6 - 4pm-8am,Day 6 - 4pm-8am,Day 7 - 8am-4pm,Day 7 - 8am-4pm,Day 7 - 4pm-8am,Day 7 - 4pm-8am
+Post,wards,ER,wards,ER,wards,ER,wards,ER,wards,ER,wards,ER,wards,ER,wards,ER,wards,ER,wards,ER,wards,ER,wards,ER,wards,ER,wards,ER
+Doctor 1,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Doctor 2,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0
+Doctor 3,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0
+Doctor 4,1,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+Doctor 5,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0
